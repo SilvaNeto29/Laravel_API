@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    Teste
+    <h1>Atualmente temos {{ $data['usuarios'] }} usuarios</h1>
 </body>
 </html>

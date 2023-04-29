@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    Teste
+    
+    @foreach ($url as $i)
+        <img src="{{$i}}" alt="">
+    @endforeach
+
 </body>
 </html>
